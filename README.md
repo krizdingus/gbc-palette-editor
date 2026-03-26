@@ -78,7 +78,7 @@ macOS, Apple Silicon. Signed and notarized. Includes the app, `example.pal`, and
 You will need Node.js (v18 or later) and npm.
 
 ```bash
-git clone <repo>
+git clone https://github.com/krizdingus/gbc-palette-editor.git
 cd gbc-palette-editor
 npm install
 npm run dev
