@@ -61,7 +61,7 @@ Notes are stored per palette index in a sidecar file next to the `.pal` file. Th
 
 ## Download
 
-**[GBC_Palette_Editor-1.0.0.zip](https://github.com/krizdingus/gbc-palette-editor/dist/GBC_Palette_Editor-1.0.0.zip)**
+**[GBC_Palette_Editor-1.0.0.zip](https://github.com/krizdingus/gbc-palette-editor/raw/main/dist/GBC_Palette_Editor-1.0.0.zip)**
 
 macOS, Apple Silicon. Signed and notarized. Includes the app, `example.pal`, and a short README.
 
