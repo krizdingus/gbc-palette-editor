@@ -1,0 +1,33 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.krizdingus.gbc-palette-editor
+productName: GBC Palette Editor
+files:
+  - filter:
+      - out/**/*
+extraResources:
+  - from: resources/example.pal
+    to: example.pal
+artifactName: ${productName}-${version}-${os}-${arch}.${ext}
+afterSign: build/notarize.js
+mac:
+  icon: build/icons/icon.icns
+  category: public.app-category.utilities
+  identity: Kristopher Williams (2JX8GQ6Y4S)
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.inherit.plist
+  target:
+    - target: dmg
+      arch:
+        - arm64
+    - target: zip
+      arch:
+        - arm64
+win:
+  icon: build/icons/icon.ico
+linux:
+  icon: build/icons/png
+electronVersion: 29.4.6

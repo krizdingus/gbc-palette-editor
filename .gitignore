@@ -3,7 +3,10 @@ node_modules/
 
 # Build output
 out/
-dist/
+dist/mac-arm64/
+dist/win-unpacked/
+dist/linux-unpacked/
+dist/staging/
 
 # Electron-vite cache
 .vite/
