@@ -24,7 +24,7 @@ Original utility: https://www.romhacking.net/utilities/1743/
 
 Toruzz also maintains technical documentation on Game Boy colorization techniques at https://toruzz.com/blog — which was essential reference material during development.
 
-This project is not a replacement for the original. toruzz built something useful. I needed something that ran on my machine. If you are on Windows, the original may serve you better.
+This project is not a replacement for the original. toruzz built something useful. I needed something that ran on my machine. If you are on Windows, use his.
 
 ---
 
@@ -113,7 +113,7 @@ For a packaged distributable, see [BUILD.md](./BUILD.md).
 
 This is one focused utility. It does one thing: edit `.pal` files.
 
-The goal is a small set of tools that collectively cover the Game Boy colorization workflow on platforms that have historically been ignored. Not a full ROM hacking suite. Not trying to become one. Each tool should be small enough to understand, maintain, and use without a tutorial.
+The goal is a small set of tools that collectively cover the Game Boy colorization workflow on Mac OS historically been ignored. Not a full ROM hacking suite. Not trying to become one. Each tool should be small enough to understand, maintain, and use without a tutorial.
 
 ---
 
